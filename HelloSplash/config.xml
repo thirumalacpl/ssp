@@ -11,4 +11,16 @@
     <access origin="*" />
     <preference name="SplashScreen" value="splashscreen" />
     <preference name="SplashScreenDelay" value="10" />
+
+  <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    
+    <gap:plugin name="phonegap-plugin-push" source="npm">
 </widget>
