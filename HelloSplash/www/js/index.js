@@ -49,7 +49,7 @@ var app = {
             setTimeout(function(){
                 navigator.splashscreen.hide();
                 $('#splash').fadeOut();
-            },1500);
+            },15);
         });
     }
 };
